@@ -1,13 +1,16 @@
 Raspberry PI Lora Gateway/Node for RFM92/95/96/98/69HCW Modules
 ===============================================================
 
-This shield is used to hold one or two HopeRF [Lora module][4] Software with Raspbery PI. it's the parent of the small [LoRasPi][11], so please look at LoRasPi [readme][12] to see features and software links.
+This shield is used to hold one or two HopeRF [Lora module][4] Software with Raspbery PI plus one FM12B/RFM69CW/RFM69(H)W.
+it's the parent of the small [LoRasPi][11], so please look at LoRasPi [readme][12] to see features and software links.
 
-Quick feature features
-======================
+Quick features 
+==============
+
 - Placement for two RFM92/95/96/98 Lora module (IE one 868MHz and one 433MHz, or 2 channels 868MHz)
 - Placement for one RFM12B/RFM69CW/RFM69(H)W classic module
-- Placement for choosing single Wire, SMA or u-FL Antenna type
+- Placement for choosing single Wire, SMA, u-FL or Thru Hole PCB Mount (Right Angle Tor straight)
+by Eightwood Antenna type
 - Vertical Antenna placement is possible (easier to drill RPI top enclosure)
 - 4 x LED for visual indication
 - Each Module reset pin can be connected to a RPI GPIO
@@ -20,9 +23,6 @@ Detailed Description
 Look at the schematics for more informations.
 
 SPI connexion is classic (MOSI/MISO/CLK), Chip Select is CE0 for Module 1 and CE1 for Module 2. Module 3 can be choosen between CE0 and GPIO26 with on board jumper switch.
-
-Detailed Description
-====================
 
 ```
 Raspberry PI   RFM9x Module 1
@@ -59,9 +59,9 @@ Raspberry PI   On Board LEDS
 
 ### Received boards 
 
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.png" height="40%" width="40%" alt="Top">    
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.jpg" height="40%" width="40%" alt="Top">    
 
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.png" height="40%" width="40%" alt="Bottom"> 
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.jpg" height="40%" width="40%" alt="Bottom"> 
 
 You can order the PCB of this board [PCBs.io][13]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price and share new boards.
 
