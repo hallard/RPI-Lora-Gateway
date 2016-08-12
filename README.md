@@ -1,10 +1,16 @@
 Raspberry PI Lora Gateway/Node for RFM92/95/96/98/69HCW Modules
 ===============================================================
 
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-mounted.jpg" height="30%" width="30%" alt="Raspberry PI Lora Gateway/Node">    
+
 This shield is used to hold one or two HopeRF [Lora module][4] Software with Raspbery PI plus one FM12B/RFM69CW/RFM69(H)W.
 it's the parent of the small [LoRasPi][11], so please look at LoRasPi [readme][12] to see features and software links.
 
 This board has been mainly inspired from [Uptronics][14] expansion board on which I added some features.
+
+Note, this board is not a real LoraWAN concentrator, if you need a real concentrator with multiple channels and fully compliant to LoraWan stack capabilities, please see thethingsnetwork gateways[wiki][1] 
+
+By the way, with Lora modules installed on this board you can have it working as a Single Channel Gateway or a LoraWan node. For testing, demo or small projects, it can be enought.
 
 Quick features 
 ==============
@@ -67,6 +73,15 @@ Raspberry PI   On Board LEDS
 
 You can order the PCB of this board [PCBs.io][13]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price and share new boards.
 
+### Assembled and mounted board
+
+Here is my testing board, as you can see, 3 modules on it    
+- Module 1 (top left) Lora RFM95 868MHz
+- Module 2 (bottom left) Lora RFM98 433MHz
+- Module 3 (right) RFM69HW 433MHz
+
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-mounted.jpg" alt="Mounted">    
+
 ##License
 
 You can do whatever you like with this design.
@@ -74,6 +89,7 @@ You can do whatever you like with this design.
 ##Misc
 See news and other projects on my [blog][2] 
 
+[1]: https://www.thethingsnetwork.org/wiki/Hardware/Gateways/Overview
 [2]: https://hallard.me
 [4]: http://www.hoperf.com/rf_transceiver/lora/
 [5]: https://github.com/hallard/single_chan_pkt_fwd
