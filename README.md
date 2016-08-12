@@ -1,7 +1,7 @@
 Raspberry PI Lora Gateway/Node for RFM92/95/96/98/69HCW Modules
 ===============================================================
 
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-mounted.jpg" height="30%" width="30%" alt="Raspberry PI Lora Gateway/Node">    
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-mounted.jpg" height="40%" width="40%" alt="Raspberry PI Lora Gateway/Node">    
 
 This shield is used to hold one or two HopeRF [Lora module][4] Software with Raspbery PI plus one FM12B/RFM69CW/RFM69(H)W.
 it's the parent of the small [LoRasPi][11], so please look at LoRasPi [readme][12] to see features and software links.
