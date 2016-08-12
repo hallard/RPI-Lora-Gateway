@@ -78,11 +78,11 @@ For reference, original libraries and code are [Arduino-LIMC][21], [RadioHead-LI
 ![schematic](https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-sch.png)  
 
 ### Boards  
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.png" alt="Top" height="50%" width="50%" >&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.png" alt="Bottom" height="50%" width="50%"> 
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.png" alt="Top" height="45%" width="45%" >&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.png" alt="Bottom" height="45%" width="45%"> 
 
 ### Received boards 
 
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.jpg" height="50%" width="50%" alt="Top">&nbsp;<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.jpg" height="50%" width="50%" alt="Bottom"> 
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.jpg" height="45%" width="45%" alt="Top">&nbsp;<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.jpg" height="45%" width="45%" alt="Bottom"> 
 
 You can order the PCB of this board [PCBs.io][13]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price and share new boards.
 
