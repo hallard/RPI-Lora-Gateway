@@ -70,7 +70,7 @@ I'm working on two libraries port and Single Channel Gateway to work on Raspberr
 - Excellent [RadioHead][22] library for RFM69, RFM9x modules (and lot of others)
 - The Things Network [Single Channel Gateway packet forwarder][24]
 
-I forked both repos, but since I'm not sure original authors would like to merge my changes just use my forks. For now it's just in coding state, please be patient, code will br better in some days.
+I forked all repos to tweak them, but since I'm not sure original authors would like to merge my changes just use my forks. For now it's just in coding state, please be patient, code will be better in some days.
 
 For reference, original libraries and code are [Arduino-LIMC][21], [RadioHead-LIMC][23], [Single Channel Gateway packet forwarder][25]
 
@@ -78,14 +78,11 @@ For reference, original libraries and code are [Arduino-LIMC][21], [RadioHead-LI
 ![schematic](https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-sch.png)  
 
 ### Boards  
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.png" alt="Top">    
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.png" alt="Bottom"> 
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.png" alt="Top" height="40%" width="40%" >&npsp;<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.png" alt="Bottom" height="40%" width="40%"> 
 
 ### Received boards 
 
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.jpg" height="40%" width="40%" alt="Top">    
-
-<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.jpg" height="40%" width="40%" alt="Bottom"> 
+<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-top.jpg" height="40%" width="40%" alt="Top">&nbsp;<img src="https://raw.githubusercontent.com/hallard/RPI-Lora-Gateway/master/images/RPI-Lora-Gateway-bot.jpg" height="40%" width="40%" alt="Bottom"> 
 
 You can order the PCB of this board [PCBs.io][13]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order boards for a discounted price and share new boards.
 
