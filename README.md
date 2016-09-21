@@ -66,11 +66,11 @@ If you want to use Module 1 and Module 3 you need to set JP1 (Chip Select of mod
 
 I'm working on two libraries port and Single Channel Gateway to work on Raspberry PI, links are here   
 
-- [LIMC][20] to be LoraWan compliant 
-- Excellent [RadioHead][22] library for RFM69, RFM9x modules (and lot of others)
+- [LMIC][15] to be LoraWan compliant.  This LMIC is working with this shield, see [readme][18] of repo.
+- Excellent [RadioHead][16] twekaed library for RFM69, RFM9x modules (and lot of others). This version is working with this shield, see [readme][17] of library.
 - The Things Network [Single Channel Gateway packet forwarder][24]
 
-I forked all repos to tweak them, but since I'm not sure original authors would like to merge my changes just use my forks. For now it's just in coding state, please be patient, code will be better in some days.
+I forked all repos to tweak them, but since I'm not sure original authors would like to merge my changes just use my forks. 
 
 For reference, original libraries and code are [Arduino-LIMC][21], [RadioHead-LIMC][23], [Single Channel Gateway packet forwarder][25]
 
@@ -115,6 +115,11 @@ See news and other projects on my [blog][2]
 [12]: https://github.com/hallard/LoRasPI/blob/master/README.md
 [13]: https://PCBs.io/share/zvxQ8
 [14]: https://store.uputronics.com/index.php?route=product/product&search=lora&product_id=68
+
+[15]: https://github.com/hallard/arduino-lmic/tree/rpi
+[16]: https://github.com/hallard/RadioHead
+[17]: https://github.com/hallard/RadioHead/blob/master/README.md
+[18]: https://github.com/hallard/arduino-lmic/blob/rpi/README.md
 
 [20]: https://github.com/hallard/arduino-lmic
 [21]: https://github.com/matthijskooijman/arduino-lmic
